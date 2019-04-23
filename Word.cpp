@@ -1,8 +1,8 @@
 // Drew Johnson
 // Find the word a Game
 
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include "conio.h"
 
 char arr[]={"ABCDEFGHIJKLMNOPQRSTUVWXYZ    "};
 int pos1[20];
@@ -13,7 +13,7 @@ void main()
 int i,no,j,z;
 textattr(1<<4|14);
 clrscr();
-cprintf("Asume A Word!\n\n\rStep 1:\n\r=======\n\rTabel 1:\n\n\r");
+cprintf("Assume A Word!\n\n\rStep 1:\n\r=======\n\rTabel 1:\n\n\r");
 textattr(1<<4|12);
 for(i=0;i<5;i++)
 cprintf("%d ",i+1);
